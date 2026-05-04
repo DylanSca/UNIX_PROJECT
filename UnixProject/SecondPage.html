@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLeague | Leaderboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header class="site-header">
+        <nav class="navbar">
+            <a class="logo" href="indexPage.html">BLeague</a>
+            <ul class="nav-links">
+                <li><a href="indexPage.html">Home</a></li>
+                <li><a href="indexPage.html#teams">Teams</a></li>
+                <li><a class="active" href="SecondPage.html">Leaderboard</a></li>
+            </ul>
+        </nav>
+   </header>
+   <main>
+    <section class="section controls-section">
+        <div class="controls">\
+            <input type="text" id="playerSeacrh" placeholder="Search player or team..."/>
+            <select id="teamFilter">
+                <option value="all">All Teams</option>
+            </select>
+        </div>
+    </section>
+    <section class="section">
+        <div class="section-heading">
+            <h2>Top Players</h2>
+        </div>
+        <div class="table-wrapper">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Rank</th>
+                        <th>Players</th>
+                        <th>Teams</th>
+                        <th>Position</th>
+                        <th>PPG</th>
+                        <th>APG</th>
+                        <th>RPG</th>
+                    </tr>
+                </thead>
+                <tbody id="playersTable"></tbody>
+            </table>
+        </div>
+    </section>
+   </main>
+
+   <footer>
+    <p>&copy; 2005 BLeague</p>
+   </footer>
+</body>
+</html>
