@@ -3,92 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BLeague</title>
+    <title>BLeague | Home</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
-   <header>
-        <nav>
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Teams</a></li>
-                <li><a href="">About</a></li>
+   <header class="site-header">
+        <nav class="navbar">
+            <a class="logo" href="indexPage.html">BLeague</a>
+            <ul class="nav-links">
+                <li><a class="active" href="">Home</a></li>
+                <li><a href="#teams">Teams</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#SecondPage.html">Leaderboard</a></li>
             </ul>
         </nav>
    </header>
 
    <main>
-    <section>
-        <article>
-            <h1>Welcome to the BLeague</h1>
-            <img src="" alt="">
-
-            <h2>List of teams</h2>
-            <h3>Thunder City Hawks</h3>
-            <p> 
-                Known for their fast tempo and highlight plays, the Hawks formed about a decade ago when Thunder 
-                City merged two local clubs. They quickly became fan favorites thanks to their explosive offense.</p>
-            
-            <h3>Riverfront Raptors</h3>
-            <p> 
-                A defensive-minded team built around toughness. They started as a community league squad near 
-                the river docks and grew into a respected regional contender.
-            </p>
-
-            <h3>Northshore Titans</h3>
+    <section class="hero">
+        <div class="hero-content">
+            <p>BasketBall Association</p>
+            <h1>Welcome to BLeague</h1>
             <p>
-                The Titans were founded by a group of former college players who wanted a team that embodied 
-                strength and discipline. Their identity revolves around physical play and strong leadership.
+                Bleague is a basketball league founded in the 2005 by John Paul. It was looked after the nba to 
+                devellope player in to a the professional level.  
             </p>
-            
-            <h3>Metro Blaze</h3>
-            <p>
-                Created during a citywide sports expansion, the Blaze became known for their fast-break offense 
-                and flashy guards. Their name reflects the “blazing” pace they’re famous for.
-            </p>
+            <div class="hero-buttons">
+                <a class="button primary" href="#teams">View Teams</a>
+                <a class="button secondary" href="#SecondPage.html">VIew Leaderboard</a>
+            </div>
+        </div>
+        <div class="hero-card">
+            <h2>League Stats</h2>
+            <div class="stats-grid">
+                <div><strong>10</strong><span>teams</span></div>
+                <div><strong>50+</strong><span>Players</span></div>
+                
+            </div>
+        </div>
+    </section>
 
-            <h3>Iron Valley Wolves</h3>
-            <p>
-                Originating from a steel‑industry town, the Wolves built their reputation on grit and teamwork. 
-                Their “pack mentality” became a symbol of the city’s working-class pride.
-            </p>
+    <section id="teams" class="section alt-section">
+        <div class="section-heading">
+            <p class="eyebrow">BLeague Overview</p>
+            <h2>About the League</h2>
+        </div>
+        <p class="overviewPara">
+            view teams 
+        </p>
 
-            <h3>Skyline Comets</h3>
-            <p>
-                A young, energetic franchise known for long-range shooting and speed. They were founded to represent 
-                the city’s growing tech district and its futuristic skyline.
-            </p>
+    </section>
 
-            <h3>Harbor City Knights</h3>
-            <p>
-                One of the oldest teams on this list, the Knights began as a semi-pro squad. Their identity is rooted 
-                in tradition, discipline, and strong defensive schemes.
-            </p>
-
-            <h3>Crimson Peak Bears</h3>
-            <p>
-                Based in a mountainous region, the Bears are known for their physical style and home-court advantage at 
-                high altitude. They started as a small-town team that grew into a regional powerhouse.
-            </p>
-
-            <h3>Solar Ridge Spartans</h3>
-            <p>
-                Founded by a local academy, the Spartans emphasize strategy and fundamentals. Their disciplined playstyle 
-                reflects their origins in a school known for athletics.
-            </p>
-
-            <h3>Emarald Bay Strom</h3>
-            <p>
-                A coastal team famous for unpredictable, high-energy play. They were formed after a major storm devastated 
-                the area, symbolizing resilience and rebirth.
-            </p>
-
-        </article>
+    <section id="teams" class="section alt-section">
+        <div class="section-heading">
+            <h2>Teams</h2>
+        </div>
+        <div id="teamsContainers" class="card-grid"></div>
     </section>
    </main>
 
-   <footer>
-    <small> </small>
+   <footer class="footer">
+    <p>&copy; 2005 BLeague.</p>
    </footer>
     
     
