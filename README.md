@@ -1,6 +1,6 @@
 This project overviews a basketball management web application of the BLeague
 
-Features
+Features:
 View basketball teams
 Display league stats
 Match history
@@ -8,7 +8,7 @@ Leaderboards
 Database integration
 User interface
 
-Technologies Used
+Technologies Used:
 HTML
 CSS
 JavaScript
@@ -17,16 +17,16 @@ MySQL
 Docker
 Apache
 
-How to Run
+How to Run:
 Clone the repository
 Start Docker containers
 Open the application in the browser
 
-Docker Containers
+Docker Containers:
 Web Server Container
 Database Server Container
 Cache/CDN Container
 
-Authors
+Authors:
 Dylan Scalia
 Antonio Isabel
